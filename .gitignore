@@ -1,10 +1,13 @@
-keys.py
 .env
 .env.*
+!.env.example
+.streamlit/secrets.toml
+logs/
+data/
+*.sqlite
+*.sqlite3
 __pycache__/
 *.py[cod]
 .venv/
 venv/
-tmp/
-sessions/
 .DS_Store
