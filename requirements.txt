@@ -1,2 +1,2 @@
-# No external Python packages are required for Version 1.
-# The server uses only the Python standard library.
+streamlit>=1.40,<2
+google-genai>=1.0,<2

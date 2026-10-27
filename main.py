@@ -1,148 +1,169 @@
-"""Version 1: receive and save writing events from the browser.
+"""Single-column Streamlit ITS. Run: streamlit run main.py"""
+import uuid
+import streamlit as st
+from answer_handler import normalize_answer, is_correct
+from logger import log_event
+from module_engine import load_module
+from tutor import instructional_reply, generate_feedback
 
-JavaScript decides when a sentence or revision is finished.
-Python only receives the events and saves them as JSON.
-"""
-
-import json
-from datetime import datetime, timezone
-from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
-from pathlib import Path
-from uuid import uuid4
-
-ROOT = Path(__file__).resolve().parent
-STATIC = ROOT / "static"
-SESSIONS = ROOT / "sessions"
-SESSIONS.mkdir(exist_ok=True)
-
-sessions = {}
+st.set_page_config(page_title="ITS Module 1 Demo", layout="centered")
+st.title("Module 1 — Finding the Central Message")
+st.caption("Original demo materials only · Single-column tutoring")
+module = load_module()
 
 
-def now():
-    return datetime.now(timezone.utc).isoformat()
+def start(condition):
+    st.session_state.update(
+        pid=str(uuid.uuid4()), condition=condition, index=0, phase="show",
+        messages=[], pending=None, started=True, selected_id=None
+    )
+    event("session_started", module_id=module["module_id"])
 
 
-def save_session(session):
-    file_path = SESSIONS / f'{session["session_id"]}.json'
-    file_path.write_text(json.dumps(session, indent=2, ensure_ascii=False), encoding="utf-8")
-    return file_path
+def event(name, **details):
+    log_event(st.session_state.pid, st.session_state.condition, name, **details)
 
 
-def add_event(session, event_type, data=None):
-    event = {"time_utc": now(), "type": event_type}
-
-    if data is not None:
-        event.update(data)
-
-    session["events"].append(event)
-    save_session(session)
+def show(role, content):
+    st.session_state.messages.append({"role": role, "content": content})
 
 
-class Handler(BaseHTTPRequestHandler):
-    def send_json(self, data):
-        body = json.dumps(data).encode("utf-8")
-        self.send_response(200)
-        self.send_header("Content-Type", "application/json")
-        self.send_header("Content-Length", str(len(body)))
-        self.end_headers()
-        self.wfile.write(body)
-
-    def read_json(self):
-        length = int(self.headers.get("Content-Length", 0))
-        body = self.rfile.read(length)
-
-        if not body:
-            return {}
-
-        return json.loads(body)
-
-    def do_GET(self):
-        if self.path == "/":
-            body = (STATIC / "index.html").read_bytes()
-            self.send_response(200)
-            self.send_header("Content-Type", "text/html; charset=utf-8")
-            self.send_header("Content-Length", str(len(body)))
-            self.end_headers()
-            self.wfile.write(body)
-            return
-
-        self.send_error(404)
-
-    def do_POST(self):
-        data = self.read_json()
-
-        if self.path == "/start":
-            session_id = uuid4().hex
-            session = {
-                "session_id": session_id,
-                "started_at": now(),
-                "ended_at": None,
-                "events": [],
-                "sentences": []
-            }
-            sessions[session_id] = session
-            add_event(session, "session_started")
-            self.send_json({"session_id": session_id})
-            return
-
-        session = sessions.get(data.get("session_id"))
-
-        if session is None:
-            self.send_error(404, "Unknown session")
-            return
-
-        if self.path == "/edit":
-            add_event(session, "edit", {
-                "before": data.get("before", ""),
-                "after": data.get("after", ""),
-                "change_position": data.get("change_position"),
-                "cursor": data.get("cursor")
-            })
-            self.send_json({"ok": True})
-            return
-
-        if self.path == "/sentence":
-            item = {
-                "time_utc": now(),
-                "type": data.get("type"),
-                "sentence_number": data.get("sentence_number"),
-                "sentence": data.get("sentence", ""),
-                "current_draft": data.get("current_draft", "")
-            }
-            session["sentences"].append(item)
-            add_event(session, "sentence_sent", item)
-            self.send_json({"ok": True})
-            return
-
-        if self.path == "/end":
-            session["ended_at"] = now()
-            session["final_draft"] = data.get("current_draft", "")
-            add_event(session, "session_ended")
-            file_path = save_session(session)
-
-            self.send_json({
-                "sentences_sent": len(session["sentences"]),
-                "file": str(file_path)
-            })
-            return
-
-        self.send_error(404)
-
-    def log_message(self, format, *args):
-        pass
+def advance():
+    st.session_state.index += 1
+    st.session_state.phase = "show"
+    st.session_state.selected_id = None
+    st.rerun()
 
 
-def main():
-    print("Version 1 real-time input test")
-    print("Open http://localhost:8000 in your browser.")
+def api_key():
+    key = st.secrets.get("GEMINI_API_KEY", "")
+    if not key:
+        st.error("GEMINI_API_KEY is missing from Streamlit secrets.")
+        st.stop()
+    return key
 
-    server = ThreadingHTTPServer(("127.0.0.1", 8000), Handler)
 
+if not st.session_state.get("started"):
+    condition = st.radio("Try a feedback condition", [1, 2, 3],
+        format_func=lambda n: {1:"1 — Simple feedback", 2:"2 — Feedback with reasoning",
+                               3:"3 — Ask for reasoning first"}[n])
+    st.info("Prototype logging is local JSONL and not durable on Streamlit Cloud. Do not collect real participant data with this storage.")
+    if st.button("Start module", type="primary"):
+        start(condition)
+        st.rerun()
+    st.stop()
+
+steps = module["steps"]
+if st.session_state.index >= len(steps):
+    for message in st.session_state.messages:
+        with st.chat_message(message["role"]):
+            st.markdown(message["content"])
+    st.success("Module complete.")
+    event_once = "completion_logged"
+    if not st.session_state.get(event_once):
+        event("module_completed")
+        st.session_state[event_once] = True
+    st.stop()
+
+item = steps[st.session_state.index]
+if st.session_state.phase == "show":
+    kind = item["type"]
+    if kind == "instruction":
+        show("assistant", item["text"])
+        st.session_state.phase = "continue"
+    elif kind == "instruction_ask":
+        show("assistant", item["question"])
+        st.session_state.phase = "instruction_answer"
+    elif kind == "worked_example":
+        show("assistant", "**Worked example**\\n\\n" + item["passage"] +
+             "\\n\\n**Question:** " + item["question"] +
+             "\\n\\n**Answer:** " + item["expected_answer"] +
+             "\\n\\n" + item["explanation"])
+        st.session_state.phase = "continue"
+    else:
+        label = "Knowledge test" if kind == "knowledge_test" else "Practice"
+        show("assistant", "**" + label + "**\\n\\n" +
+             "\\n\\n".join(f"**{i+1}.** {s['text']}" for i,s in enumerate(item["sentences"])) +
+             "\\n\\n**" + item["question"] + "**")
+        st.session_state.phase = "select"
+    event("item_displayed", item_id=item["id"], item_type=kind)
+
+for message in st.session_state.messages:
+    with st.chat_message(message["role"]):
+        st.markdown(message["content"])
+
+phase = st.session_state.phase
+if phase == "continue":
+    if st.button("Continue", type="primary"):
+        event("continue_clicked", item_id=item["id"])
+        advance()
+elif phase == "instruction_answer":
+    answer = st.chat_input("Type your answer")
+    if answer and answer.strip():
+        show("user", answer)
+        event("instruction_answer_submitted", item_id=item["id"], response=answer)
+        st.session_state.pending = {"instruction_answer": answer}
+        st.session_state.phase = "instruction_feedback"
+        st.rerun()
+elif phase == "instruction_feedback":
     try:
-        server.serve_forever()
-    except KeyboardInterrupt:
-        print("\nServer stopped.")
-
-
-if __name__ == "__main__":
-    main()
+        with st.spinner("Tutor responding..."):
+            reply = instructional_reply(api_key(), item, st.session_state.pending["instruction_answer"])
+    except Exception as exc:
+        st.error(f"Could not get instructional response ({type(exc).__name__}).")
+        if st.button("Retry"): st.rerun()
+        st.stop()
+    show("assistant", reply["message"])
+    event("instruction_feedback_displayed", item_id=item["id"], llm_response=reply)
+    st.session_state.phase = "continue"
+    st.rerun()
+elif phase == "select":
+    options = [s["id"] for s in item["sentences"]]
+    selected = st.radio("Select the main sentence", options, index=None,
+        format_func=lambda sid: next(s["text"] for s in item["sentences"] if s["id"] == sid),
+        key=f"selection_{item['id']}")
+    if st.button("Submit sentence", type="primary", disabled=selected is None):
+        normalized = normalize_answer(item, selected)
+        correct = is_correct(item, normalized)
+        st.session_state.pending = {"selection": normalized, "correct": correct}
+        show("user", normalized["selected_sentence_text"])
+        event("answer_submitted", item_id=item["id"], answer=normalized, is_correct=correct)
+        if item["type"] == "knowledge_test":
+            show("assistant", "Your answer has been recorded.")
+            st.session_state.phase = "continue"
+        elif st.session_state.condition == 3:
+            show("assistant", "Why did you choose that sentence as the central message?")
+            event("reasoning_requested", item_id=item["id"])
+            st.session_state.phase = "reasoning"
+        else:
+            st.session_state.phase = "feedback"
+        st.rerun()
+elif phase == "reasoning":
+    answer = st.chat_input("Explain your choice")
+    if answer and answer.strip():
+        show("user", answer)
+        st.session_state.pending["reasoning"] = answer
+        event("reasoning_submitted", item_id=item["id"], response=answer)
+        st.session_state.phase = "feedback"
+        st.rerun()
+elif phase == "feedback":
+    pending = st.session_state.pending
+    if st.session_state.condition == 1:
+        message = item["simple_feedback"]["correct" if pending["correct"] else "incorrect"]
+        result = {"item_id":item["id"], "condition":1,
+            "evaluation":{"is_correct":pending["correct"],"expected_answer":item["expected_answer"]},
+            "feedback":{"message":message,"focus":"central_message"},
+            "next_action":"continue","model":None}
+    else:
+        try:
+            with st.spinner("Generating feedback..."):
+                result = generate_feedback(api_key(), item, pending["selection"],
+                    pending["correct"], st.session_state.condition, pending.get("reasoning"))
+        except Exception as exc:
+            st.error(f"Feedback unavailable ({type(exc).__name__}).")
+            if st.button("Retry"): st.rerun()
+            st.stop()
+    show("assistant", result["feedback"]["message"])
+    event("feedback_displayed", item_id=item["id"], llm_response=result)
+    st.session_state.phase = "continue"
+    st.rerun()
