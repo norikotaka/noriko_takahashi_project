@@ -7,6 +7,12 @@
   ],
   "steps": [
     {
+      "id": "welcome",
+      "type": "transition",
+      "text": "**Welcome to Module 1!**\n\nIn this module, you'll learn how to identify a writer's central message. You'll first read the instruction and answer a few short questions. Then you'll complete **3 practice items** with feedback and **3 knowledge-test items** without feedback.\n\nClick **Start instruction** when you're ready.",
+      "button_label": "Start instruction"
+    },
+    {
       "id": "intro_1",
       "type": "instruction",
       "text": "When we read a message, we do not treat every sentence as equally important. Usually, the writer wants us to understand something, believe something, or take an action. We call this the writer's central intention."
@@ -71,15 +77,16 @@
       "explanation": "Sentence 3 tells readers what action to take. The others offer background or politeness."
     },
     {
+      "id": "practice_intro",
+      "type": "transition",
+      "text": "**Now, let's practice!**\n\nYou'll complete **3 practice items**. Select the sentence that best expresses the writer's central message. After each answer, you'll receive feedback.\n\nClick **Start practice** when you're ready.",
+      "button_label": "Start practice"
+    },
+    {
       "id": "ask_1",
       "type": "practice",
       "passage": "Our hiking group has welcomed six new members. The trails may be muddy after yesterday's rain. Saturday's hike will begin at 8:30 a.m. instead of 9:00 a.m. Thanks for being flexible.",
       "question": "Which sentence carries the central message?",
-      "accepted_answers": [
-        "3",
-        "sentence 3",
-        "third sentence"
-      ],
       "expected_answer": "Sentence 3",
       "reasoning_criteria": "The third sentence announces the changed start time; the other sentences provide context or courtesy.",
       "simple_feedback": {
@@ -116,11 +123,6 @@
       "type": "practice",
       "passage": "Please bring a reusable water bottle to tomorrow's workshop. The building's drinking fountains will be available throughout the day. Disposable cups will not be provided. We look forward to seeing you.",
       "question": "Which sentence most directly states what the writer wants readers to do?",
-      "accepted_answers": [
-        "1",
-        "sentence 1",
-        "first sentence"
-      ],
       "expected_answer": "Sentence 1",
       "reasoning_criteria": "Sentence 1 directly requests an action; Sentence 3 provides a reason for it.",
       "simple_feedback": {
@@ -157,11 +159,6 @@
       "type": "practice",
       "passage": "The art studio has been busy preparing for the spring exhibition. Many volunteers helped paint the walls and arrange the displays. We are grateful for their effort. The exhibition will open to visitors on Friday at noon.",
       "question": "Which sentence communicates the main announcement?",
-      "accepted_answers": [
-        "4",
-        "sentence 4",
-        "fourth sentence"
-      ],
       "expected_answer": "Sentence 4",
       "reasoning_criteria": "Sentence 4 communicates the opening time; earlier sentences are background and appreciation.",
       "simple_feedback": {
@@ -194,15 +191,16 @@
       }
     },
     {
+      "id": "knowledge_intro",
+      "type": "transition",
+      "text": "**You've finished the practice items!**\n\nNow, based on what you've learned, try **3 knowledge-test items**. Select the main sentence in each passage. This time, you won't receive feedback after each answer.\n\nClick **Start knowledge test** when you're ready.",
+      "button_label": "Start knowledge test"
+    },
+    {
       "id": "test_1",
       "type": "knowledge_test",
       "passage": "The science museum has added a new astronomy exhibit. Visitors have asked for more evening activities. The museum will stay open until 9 p.m. on Thursdays starting next month. Staff are excited to welcome more guests.",
       "question": "Which sentence best expresses the main announcement?",
-      "accepted_answers": [
-        "3",
-        "sentence 3",
-        "third sentence"
-      ],
       "expected_answer": "Sentence 3",
       "sentences": [
         {
@@ -234,11 +232,6 @@
       "type": "knowledge_test",
       "passage": "All workshop participants must sign in at the reception table before entering the lab. The table is located beside the east doorway. Staff members can help anyone who has trouble finding it. Thank you for your cooperation.",
       "question": "Which sentence expresses the writer's central request?",
-      "accepted_answers": [
-        "1",
-        "sentence 1",
-        "first sentence"
-      ],
       "expected_answer": "Sentence 1",
       "sentences": [
         {
@@ -263,6 +256,37 @@
         "target_skill": "Identify the sentence expressing the author's central intention",
         "correct_reasoning": "The correct sentence states the central message.",
         "feedback_instruction": "Use this specific passage and the selected sentence to explain the distinction between central intention and supporting information. Never invent additional facts."
+      }
+    },
+    {
+      "id": "test_3",
+      "type": "knowledge_test",
+      "passage": "The community garden has grown several new vegetables this season. Several volunteers helped repair the garden fence last weekend. Starting Monday, visitors should use the north gate while the main entrance is repaired. Thank you to everyone who supports the garden.",
+      "question": "Which sentence most directly communicates the main instruction?",
+      "expected_answer": "Sentence 3",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "The community garden has grown several new vegetables this season."
+        },
+        {
+          "id": "s2",
+          "text": "Several volunteers helped repair the garden fence last weekend."
+        },
+        {
+          "id": "s3",
+          "text": "Starting Monday, visitors should use the north gate while the main entrance is repaired."
+        },
+        {
+          "id": "s4",
+          "text": "Thank you to everyone who supports the garden."
+        }
+      ],
+      "correct_sentence_id": "s3",
+      "item_prompt": {
+        "target_skill": "Identify the sentence expressing the author's central intention",
+        "correct_reasoning": "Sentence 3 directs visitors to use the north gate while repairs are underway.",
+        "feedback_instruction": "Knowledge-test item: record the answer without generating feedback."
       }
     }
   ]

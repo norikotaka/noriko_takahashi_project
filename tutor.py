@@ -1,40 +1,41 @@
-"""Gemini calls with structured JSON output and item-specific context."""
+"""Groq calls with JSON output and item-specific context."""
 import json
 import time
 from pathlib import Path
 
 PROMPTS = json.loads((Path(__file__).parent / "prompts" / "feedback_prompts.json").read_text())
-MODEL = "gemini-2.5-flash"
+MODEL = "openai/gpt-oss-20b"
 
 
 def _request(api_key, system, context):
-    from google import genai
-    from google.genai import types
-    client = genai.Client(api_key=api_key)
+    from groq import Groq
+
+    client = Groq(api_key=api_key, timeout=25.0, max_retries=1)
     started = time.monotonic()
-    response = client.models.generate_content(
+    response = client.chat.completions.create(
         model=MODEL,
-        contents=system + "\\nITEM CONTEXT:\\n" + json.dumps(context, ensure_ascii=False),
-        config=types.GenerateContentConfig(
-            temperature=0.2,
-            response_mime_type="application/json",
-            response_schema={
-                "type": "OBJECT",
-                "properties": {"message": {"type": "STRING"}, "focus": {"type": "STRING"}},
-                "required": ["message", "focus"],
-            },
-        ),
+        messages=[
+            {"role": "system", "content": system + "\nReturn a JSON object with string fields message and focus."},
+            {"role": "user", "content": "ITEM CONTEXT:\n" + json.dumps(context, ensure_ascii=False)},
+        ],
+        temperature=0.2,
+        max_completion_tokens=350,
+        response_format={"type": "json_object"},
     )
-    result = json.loads(response.text)
+    content = response.choices[0].message.content
+    if not content:
+        raise ValueError("Groq returned an empty response")
+    result = json.loads(content)
     if not isinstance(result.get("message"), str) or not result["message"].strip():
-        raise ValueError("Invalid tutor response")
+        raise ValueError("Invalid tutor response: missing message")
+    result.setdefault("focus", "central_message")
     result["model"] = MODEL
     result["latency_ms"] = round((time.monotonic() - started) * 1000)
     return result
 
 
 def instructional_reply(api_key, item, learner_response):
-    return _request(api_key, PROMPTS["common"] + "\\n" + PROMPTS["instruction_reply"], {
+    return _request(api_key, PROMPTS["common"] + "\n" + PROMPTS["instruction_reply"], {
         "question": item["question"], "expected_answer": item["expected_answer"],
         "guidance": item["guidance"], "learner_response": learner_response,
         "stage": "instruction", "instruction_shared_across_conditions": True,
@@ -45,7 +46,7 @@ def generate_feedback(api_key, item, normalized, correct, condition, reasoning=N
     if condition not in (2, 3):
         raise ValueError("LLM feedback is for conditions 2 and 3")
     prompt = PROMPTS["condition_2" if condition == 2 else "condition_3_feedback"]
-    result = _request(api_key, PROMPTS["common"] + "\\n" + prompt, {
+    result = _request(api_key, PROMPTS["common"] + "\n" + prompt, {
         "item_id": item["id"], "question": item["question"],
         "sentences": item["sentences"], "correct_sentence_id": item["correct_sentence_id"],
         "expected_answer": item["expected_answer"], "item_specific_prompt": item["item_prompt"],
