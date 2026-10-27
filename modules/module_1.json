@@ -1,0 +1,269 @@
+{
+  "module_id": "module_1_demo",
+  "title": "Finding the Central Message",
+  "learning_objectives": [
+    "Identify a writer's central message",
+    "Distinguish central messages from context and supporting details"
+  ],
+  "steps": [
+    {
+      "id": "intro_1",
+      "type": "instruction",
+      "text": "When we read a message, we do not treat every sentence as equally important. Usually, the writer wants us to understand something, believe something, or take an action. We call this the writer's central intention."
+    },
+    {
+      "id": "intro_2",
+      "type": "instruction",
+      "text": "Other sentences still matter. They might explain the situation, give a reason, provide an example, or add a polite opening or closing. These sentences help the message work, but they do not necessarily carry its central intention."
+    },
+    {
+      "id": "intro_3",
+      "type": "instruction",
+      "text": "Imagine a notice about a community event. You only have a few seconds to tell a friend what the notice is mainly saying. You would probably scan for the announcement or request instead of repeating every detail."
+    },
+    {
+      "id": "intro_4",
+      "type": "instruction",
+      "text": "A useful strategy is to ask: What does the writer most want the reader to know or do? Then ask: Which single sentence expresses that purpose most directly? The two questions help distinguish the main message from supporting information."
+    },
+    {
+      "id": "intro_5",
+      "type": "instruction",
+      "text": "Sometimes a supporting sentence sounds important because it contains a problem or an explanation. But a sentence that gives a reason is not always the one that tells readers what action to take. Look for the sentence that most clearly communicates the intended outcome."
+    },
+    {
+      "id": "intro_6",
+      "type": "instruction",
+      "text": "Texts also have a hierarchy: one sentence can carry the main message while the remaining sentences help readers interpret it. The main sentence may appear at the beginning, middle, or end. Do not rely on its position."
+    },
+    {
+      "id": "intro_7",
+      "type": "instruction",
+      "text": "Let's check the idea before practicing. Read each question and type a short answer. The tutor will respond before moving on."
+    },
+    {
+      "id": "instruction_ask_1",
+      "type": "instruction_ask",
+      "question": "In your own words, what is a writer's central intention?",
+      "expected_answer": "What the writer most wants readers to know, think, feel, or do.",
+      "guidance": "Accept reasonable paraphrases. Clarify that it is the main intended takeaway, not merely the topic."
+    },
+    {
+      "id": "instruction_ask_2",
+      "type": "instruction_ask",
+      "question": "Can a sentence that gives background information be useful without being the main sentence? Why?",
+      "expected_answer": "Yes. Background helps explain or support the main message, but it may not express the writer's primary purpose.",
+      "guidance": "Affirm that supporting information matters. Contrast support with the central intention."
+    },
+    {
+      "id": "instruction_ask_3",
+      "type": "instruction_ask",
+      "question": "If the main sentence is not the first sentence, how could you find it?",
+      "expected_answer": "Identify the writer's main purpose and find the sentence that expresses it most directly, regardless of position.",
+      "guidance": "Emphasize meaning over sentence position."
+    },
+    {
+      "id": "example",
+      "type": "worked_example",
+      "passage": "The neighborhood library recently reorganized its shelves. Some older books are now in the upstairs archive. Beginning next week, please return borrowed books to the desk beside the front entrance. We appreciate your help.",
+      "question": "Which sentence expresses the writer's main purpose?",
+      "expected_answer": "Sentence 3",
+      "explanation": "Sentence 3 tells readers what action to take. The others offer background or politeness."
+    },
+    {
+      "id": "ask_1",
+      "type": "practice",
+      "passage": "Our hiking group has welcomed six new members. The trails may be muddy after yesterday's rain. Saturday's hike will begin at 8:30 a.m. instead of 9:00 a.m. Thanks for being flexible.",
+      "question": "Which sentence carries the central message?",
+      "accepted_answers": [
+        "3",
+        "sentence 3",
+        "third sentence"
+      ],
+      "expected_answer": "Sentence 3",
+      "reasoning_criteria": "The third sentence announces the changed start time; the other sentences provide context or courtesy.",
+      "simple_feedback": {
+        "correct": "Correct. Sentence 3 announces the new start time.",
+        "incorrect": "The central message is in Sentence 3: the hike now begins at 8:30 a.m."
+      },
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Our hiking group has welcomed six new members."
+        },
+        {
+          "id": "s2",
+          "text": "The trails may be muddy after yesterday's rain."
+        },
+        {
+          "id": "s3",
+          "text": "Saturday's hike will begin at 8:30 a.m. instead of 9:00 a.m."
+        },
+        {
+          "id": "s4",
+          "text": "Thanks for being flexible."
+        }
+      ],
+      "correct_sentence_id": "s3",
+      "item_prompt": {
+        "target_skill": "Identify the sentence expressing the author's central intention",
+        "correct_reasoning": "The third sentence announces the changed start time; the other sentences provide context or courtesy.",
+        "feedback_instruction": "Use this specific passage and the selected sentence to explain the distinction between central intention and supporting information. Never invent additional facts."
+      }
+    },
+    {
+      "id": "ask_2",
+      "type": "practice",
+      "passage": "Please bring a reusable water bottle to tomorrow's workshop. The building's drinking fountains will be available throughout the day. Disposable cups will not be provided. We look forward to seeing you.",
+      "question": "Which sentence most directly states what the writer wants readers to do?",
+      "accepted_answers": [
+        "1",
+        "sentence 1",
+        "first sentence"
+      ],
+      "expected_answer": "Sentence 1",
+      "reasoning_criteria": "Sentence 1 directly requests an action; Sentence 3 provides a reason for it.",
+      "simple_feedback": {
+        "correct": "Correct. Sentence 1 directly asks participants to bring a bottle.",
+        "incorrect": "Sentence 1 is the central message because it directly requests an action."
+      },
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Please bring a reusable water bottle to tomorrow's workshop."
+        },
+        {
+          "id": "s2",
+          "text": "The building's drinking fountains will be available throughout the day."
+        },
+        {
+          "id": "s3",
+          "text": "Disposable cups will not be provided."
+        },
+        {
+          "id": "s4",
+          "text": "We look forward to seeing you."
+        }
+      ],
+      "correct_sentence_id": "s1",
+      "item_prompt": {
+        "target_skill": "Identify the sentence expressing the author's central intention",
+        "correct_reasoning": "Sentence 1 directly requests an action; Sentence 3 provides a reason for it.",
+        "feedback_instruction": "Use this specific passage and the selected sentence to explain the distinction between central intention and supporting information. Never invent additional facts."
+      }
+    },
+    {
+      "id": "ask_3",
+      "type": "practice",
+      "passage": "The art studio has been busy preparing for the spring exhibition. Many volunteers helped paint the walls and arrange the displays. We are grateful for their effort. The exhibition will open to visitors on Friday at noon.",
+      "question": "Which sentence communicates the main announcement?",
+      "accepted_answers": [
+        "4",
+        "sentence 4",
+        "fourth sentence"
+      ],
+      "expected_answer": "Sentence 4",
+      "reasoning_criteria": "Sentence 4 communicates the opening time; earlier sentences are background and appreciation.",
+      "simple_feedback": {
+        "correct": "Correct. Sentence 4 gives the opening announcement.",
+        "incorrect": "The central announcement is Sentence 4, which tells visitors when the exhibition opens."
+      },
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "The art studio has been busy preparing for the spring exhibition."
+        },
+        {
+          "id": "s2",
+          "text": "Many volunteers helped paint the walls and arrange the displays."
+        },
+        {
+          "id": "s3",
+          "text": "We are grateful for their effort."
+        },
+        {
+          "id": "s4",
+          "text": "The exhibition will open to visitors on Friday at noon."
+        }
+      ],
+      "correct_sentence_id": "s4",
+      "item_prompt": {
+        "target_skill": "Identify the sentence expressing the author's central intention",
+        "correct_reasoning": "Sentence 4 communicates the opening time; earlier sentences are background and appreciation.",
+        "feedback_instruction": "Use this specific passage and the selected sentence to explain the distinction between central intention and supporting information. Never invent additional facts."
+      }
+    },
+    {
+      "id": "test_1",
+      "type": "knowledge_test",
+      "passage": "The science museum has added a new astronomy exhibit. Visitors have asked for more evening activities. The museum will stay open until 9 p.m. on Thursdays starting next month. Staff are excited to welcome more guests.",
+      "question": "Which sentence best expresses the main announcement?",
+      "accepted_answers": [
+        "3",
+        "sentence 3",
+        "third sentence"
+      ],
+      "expected_answer": "Sentence 3",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "The science museum has added a new astronomy exhibit."
+        },
+        {
+          "id": "s2",
+          "text": "Visitors have asked for more evening activities."
+        },
+        {
+          "id": "s3",
+          "text": "The museum will stay open until 9 p.m. on Thursdays starting next month."
+        },
+        {
+          "id": "s4",
+          "text": "Staff are excited to welcome more guests."
+        }
+      ],
+      "correct_sentence_id": "s3",
+      "item_prompt": {
+        "target_skill": "Identify the sentence expressing the author's central intention",
+        "correct_reasoning": "The correct sentence states the central message.",
+        "feedback_instruction": "Use this specific passage and the selected sentence to explain the distinction between central intention and supporting information. Never invent additional facts."
+      }
+    },
+    {
+      "id": "test_2",
+      "type": "knowledge_test",
+      "passage": "All workshop participants must sign in at the reception table before entering the lab. The table is located beside the east doorway. Staff members can help anyone who has trouble finding it. Thank you for your cooperation.",
+      "question": "Which sentence expresses the writer's central request?",
+      "accepted_answers": [
+        "1",
+        "sentence 1",
+        "first sentence"
+      ],
+      "expected_answer": "Sentence 1",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "All workshop participants must sign in at the reception table before entering the lab."
+        },
+        {
+          "id": "s2",
+          "text": "The table is located beside the east doorway."
+        },
+        {
+          "id": "s3",
+          "text": "Staff members can help anyone who has trouble finding it."
+        },
+        {
+          "id": "s4",
+          "text": "Thank you for your cooperation."
+        }
+      ],
+      "correct_sentence_id": "s1",
+      "item_prompt": {
+        "target_skill": "Identify the sentence expressing the author's central intention",
+        "correct_reasoning": "The correct sentence states the central message.",
+        "feedback_instruction": "Use this specific passage and the selected sentence to explain the distinction between central intention and supporting information. Never invent additional facts."
+      }
+    }
+  ]
+}
