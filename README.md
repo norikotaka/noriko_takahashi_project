@@ -1,14 +1,46 @@
-# Synthesis writing feedback
+# LLM-Based Intelligent Tutoring System (ITS)
 
-I want to build a writing feedback system for students who write a synthesis using multiple source texts. My main interest is when feedback should appear. Some problems need immediate feedback, but others should wait because the student may still be developing their idea.
+## Project Overview
 
-The planned system will work like this:
+This project develops an LLM-based Intelligent Tutoring System (ITS) that provides instruction, practice activities, and individualized feedback. My main research interest is how different feedback designs influence students' reasoning and learning.
 
-1. The student opens the webpage, clicks Start, and reads the sources and writing prompt.
-2. They start writing. If a sentence clearly conflicts with information in a source, the system gives immediate feedback.
-3. The feedback highlights the relevant text and has Ignore / Revise buttons. The student can edit the text directly.
-4. When the student finishes an idea, the system checks its connection to the sources’ main ideas and the writing task.
-5. The system saves the writing, feedback, and revisions so I can examine how students respond to feedback.
+The current prototype focuses on **Module 1: Finding the Central Message**.
 
-I plan to use Python and a free LLM API for the feedback, and HTML, CSS, JavaScript, and Flask for the webpage.
+## Learning Flow
+
+1. **Instruction:** Students read instructional materials and answer questions with AI tutor support.
+2. **Worked Example:** Students review an example.
+3. **Practice:** Students complete 3 items and receive feedback.
+4. **Knowledge Test:** Students complete 3 items without feedback.
+
+## Feedback Conditions
+
+- **Condition 1:** Simple, predefined feedback.
+- **Condition 2:** LLM-generated feedback based on item-specific prompts.
+- **Condition 3:** Students explain their reasoning before receiving LLM-generated feedback.
+
+## Implementation
+
+- **Python & Streamlit:** Web interface and application logic.
+- **Groq API (`openai/gpt-oss-20b`):** LLM-generated feedback.
+- **JSON:** Instructional materials and feedback prompts.
+- **JSONL:** Interaction logging for prototype testing.
+
+## Run Locally
+
+```bash
+pip install -r requirements.txt
+streamlit run main.py
+```
+
+Add `GROQ_API_KEY` to `.streamlit/secrets.toml` before running.
+
+## Next Steps
+
+- Validate LLM-generated feedback.
+- Improve the interface and interaction logging.
+- Integrate actual instructional materials.
+- Evaluate students' attention, reasoning, and learning outcomes.
+
+*Note: This public repository uses demonstration materials, not the original research instructional materials.*
 
