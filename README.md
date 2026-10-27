@@ -35,6 +35,9 @@ streamlit run main.py
 
 Add `GROQ_API_KEY` to `.streamlit/secrets.toml` before running.
 
+## try module1
+https://noriko-module1.streamlit.app/
+
 ## Next Steps
 
 - Validate LLM-generated feedback.
