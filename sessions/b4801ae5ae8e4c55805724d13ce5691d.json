@@ -1,0 +1,3076 @@
+{
+  "session_id": "b4801ae5ae8e4c55805724d13ce5691d",
+  "started_at": "2026-10-05T21:27:43.014181+00:00",
+  "ended_at": "2026-10-05T21:31:12.282915+00:00",
+  "events": [
+    {
+      "time_utc": "2026-10-05T21:27:43.014208+00:00",
+      "type": "session_started"
+    },
+    {
+      "time_utc": "2026-10-05T21:27:51.266076+00:00",
+      "type": "edit",
+      "before": "",
+      "after": "T",
+      "change_position": 0,
+      "cursor": 1
+    },
+    {
+      "time_utc": "2026-10-05T21:27:52.983064+00:00",
+      "type": "edit",
+      "before": "T",
+      "after": "Te",
+      "change_position": 1,
+      "cursor": 2
+    },
+    {
+      "time_utc": "2026-10-05T21:27:53.233870+00:00",
+      "type": "edit",
+      "before": "Te",
+      "after": "Tes",
+      "change_position": 2,
+      "cursor": 3
+    },
+    {
+      "time_utc": "2026-10-05T21:27:53.462947+00:00",
+      "type": "edit",
+      "before": "Tes",
+      "after": "Test",
+      "change_position": 3,
+      "cursor": 4
+    },
+    {
+      "time_utc": "2026-10-05T21:27:53.916563+00:00",
+      "type": "edit",
+      "before": "Test",
+      "after": "Tes",
+      "change_position": 3,
+      "cursor": 3
+    },
+    {
+      "time_utc": "2026-10-05T21:27:54.131573+00:00",
+      "type": "edit",
+      "before": "Tes",
+      "after": "Te",
+      "change_position": 2,
+      "cursor": 2
+    },
+    {
+      "time_utc": "2026-10-05T21:27:54.711730+00:00",
+      "type": "edit",
+      "before": "Te",
+      "after": "Tex",
+      "change_position": 2,
+      "cursor": 3
+    },
+    {
+      "time_utc": "2026-10-05T21:27:54.931635+00:00",
+      "type": "edit",
+      "before": "Tex",
+      "after": "Text",
+      "change_position": 3,
+      "cursor": 4
+    },
+    {
+      "time_utc": "2026-10-05T21:27:55.126174+00:00",
+      "type": "edit",
+      "before": "Text",
+      "after": "Text ",
+      "change_position": 4,
+      "cursor": 5
+    },
+    {
+      "time_utc": "2026-10-05T21:27:56.087394+00:00",
+      "type": "edit",
+      "before": "Text ",
+      "after": "Text A",
+      "change_position": 5,
+      "cursor": 6
+    },
+    {
+      "time_utc": "2026-10-05T21:27:56.300366+00:00",
+      "type": "edit",
+      "before": "Text A",
+      "after": "Text A ",
+      "change_position": 6,
+      "cursor": 7
+    },
+    {
+      "time_utc": "2026-10-05T21:27:57.245775+00:00",
+      "type": "edit",
+      "before": "Text A ",
+      "after": "Text A i",
+      "change_position": 7,
+      "cursor": 8
+    },
+    {
+      "time_utc": "2026-10-05T21:27:57.376953+00:00",
+      "type": "edit",
+      "before": "Text A i",
+      "after": "Text A is",
+      "change_position": 8,
+      "cursor": 9
+    },
+    {
+      "time_utc": "2026-10-05T21:27:57.487825+00:00",
+      "type": "edit",
+      "before": "Text A is",
+      "after": "Text A is ",
+      "change_position": 9,
+      "cursor": 10
+    },
+    {
+      "time_utc": "2026-10-05T21:27:57.660202+00:00",
+      "type": "edit",
+      "before": "Text A is ",
+      "after": "Text A is a",
+      "change_position": 10,
+      "cursor": 11
+    },
+    {
+      "time_utc": "2026-10-05T21:27:57.793281+00:00",
+      "type": "edit",
+      "before": "Text A is a",
+      "after": "Text A is ab",
+      "change_position": 11,
+      "cursor": 12
+    },
+    {
+      "time_utc": "2026-10-05T21:27:57.911003+00:00",
+      "type": "edit",
+      "before": "Text A is ab",
+      "after": "Text A is abo",
+      "change_position": 12,
+      "cursor": 13
+    },
+    {
+      "time_utc": "2026-10-05T21:27:58.032210+00:00",
+      "type": "edit",
+      "before": "Text A is abo",
+      "after": "Text A is abou",
+      "change_position": 13,
+      "cursor": 14
+    },
+    {
+      "time_utc": "2026-10-05T21:27:58.175391+00:00",
+      "type": "edit",
+      "before": "Text A is abou",
+      "after": "Text A is about",
+      "change_position": 14,
+      "cursor": 15
+    },
+    {
+      "time_utc": "2026-10-05T21:27:58.333261+00:00",
+      "type": "edit",
+      "before": "Text A is about",
+      "after": "Text A is about ",
+      "change_position": 15,
+      "cursor": 16
+    },
+    {
+      "time_utc": "2026-10-05T21:27:58.600941+00:00",
+      "type": "edit",
+      "before": "Text A is about ",
+      "after": "Text A is about t",
+      "change_position": 16,
+      "cursor": 17
+    },
+    {
+      "time_utc": "2026-10-05T21:27:58.741533+00:00",
+      "type": "edit",
+      "before": "Text A is about t",
+      "after": "Text A is about th",
+      "change_position": 17,
+      "cursor": 18
+    },
+    {
+      "time_utc": "2026-10-05T21:27:58.860628+00:00",
+      "type": "edit",
+      "before": "Text A is about th",
+      "after": "Text A is about the",
+      "change_position": 18,
+      "cursor": 19
+    },
+    {
+      "time_utc": "2026-10-05T21:27:59.010750+00:00",
+      "type": "edit",
+      "before": "Text A is about the",
+      "after": "Text A is about the ",
+      "change_position": 19,
+      "cursor": 20
+    },
+    {
+      "time_utc": "2026-10-05T21:28:04.315413+00:00",
+      "type": "edit",
+      "before": "Text A is about the ",
+      "after": "Text A is about the h",
+      "change_position": 20,
+      "cursor": 21
+    },
+    {
+      "time_utc": "2026-10-05T21:28:04.419883+00:00",
+      "type": "edit",
+      "before": "Text A is about the h",
+      "after": "Text A is about the ho",
+      "change_position": 21,
+      "cursor": 22
+    },
+    {
+      "time_utc": "2026-10-05T21:28:04.516683+00:00",
+      "type": "edit",
+      "before": "Text A is about the ho",
+      "after": "Text A is about the how",
+      "change_position": 22,
+      "cursor": 23
+    },
+    {
+      "time_utc": "2026-10-05T21:28:04.675446+00:00",
+      "type": "edit",
+      "before": "Text A is about the how",
+      "after": "Text A is about the how ",
+      "change_position": 23,
+      "cursor": 24
+    },
+    {
+      "time_utc": "2026-10-05T21:28:05.136512+00:00",
+      "type": "edit",
+      "before": "Text A is about the how ",
+      "after": "Text A is about the how A",
+      "change_position": 24,
+      "cursor": 25
+    },
+    {
+      "time_utc": "2026-10-05T21:28:05.411597+00:00",
+      "type": "edit",
+      "before": "Text A is about the how A",
+      "after": "Text A is about the how AI",
+      "change_position": 25,
+      "cursor": 26
+    },
+    {
+      "time_utc": "2026-10-05T21:28:05.601180+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI",
+      "after": "Text A is about the how AI ",
+      "change_position": 26,
+      "cursor": 27
+    },
+    {
+      "time_utc": "2026-10-05T21:28:05.778659+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI ",
+      "after": "Text A is about the how AI c",
+      "change_position": 27,
+      "cursor": 28
+    },
+    {
+      "time_utc": "2026-10-05T21:28:05.869714+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI c",
+      "after": "Text A is about the how AI ca",
+      "change_position": 28,
+      "cursor": 29
+    },
+    {
+      "time_utc": "2026-10-05T21:28:06.054057+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI ca",
+      "after": "Text A is about the how AI can",
+      "change_position": 29,
+      "cursor": 30
+    },
+    {
+      "time_utc": "2026-10-05T21:28:06.255992+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can",
+      "after": "Text A is about the how AI can ",
+      "change_position": 30,
+      "cursor": 31
+    },
+    {
+      "time_utc": "2026-10-05T21:28:06.911343+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can ",
+      "after": "Text A is about the how AI can h",
+      "change_position": 31,
+      "cursor": 32
+    },
+    {
+      "time_utc": "2026-10-05T21:28:07.009440+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can h",
+      "after": "Text A is about the how AI can he",
+      "change_position": 32,
+      "cursor": 33
+    },
+    {
+      "time_utc": "2026-10-05T21:28:07.163146+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can he",
+      "after": "Text A is about the how AI can hel",
+      "change_position": 33,
+      "cursor": 34
+    },
+    {
+      "time_utc": "2026-10-05T21:28:07.359954+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can hel",
+      "after": "Text A is about the how AI can help",
+      "change_position": 34,
+      "cursor": 35
+    },
+    {
+      "time_utc": "2026-10-05T21:28:07.576013+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help",
+      "after": "Text A is about the how AI can help ",
+      "change_position": 35,
+      "cursor": 36
+    },
+    {
+      "time_utc": "2026-10-05T21:28:08.867929+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help ",
+      "after": "Text A is about the how AI can help c",
+      "change_position": 36,
+      "cursor": 37
+    },
+    {
+      "time_utc": "2026-10-05T21:28:09.010481+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help c",
+      "after": "Text A is about the how AI can help co",
+      "change_position": 37,
+      "cursor": 38
+    },
+    {
+      "time_utc": "2026-10-05T21:28:09.162247+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help co",
+      "after": "Text A is about the how AI can help cos",
+      "change_position": 38,
+      "cursor": 39
+    },
+    {
+      "time_utc": "2026-10-05T21:28:09.476646+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help cos",
+      "after": "Text A is about the how AI can help cost",
+      "change_position": 39,
+      "cursor": 40
+    },
+    {
+      "time_utc": "2026-10-05T21:28:10.240524+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help cost",
+      "after": "Text A is about the how AI can help costo",
+      "change_position": 40,
+      "cursor": 41
+    },
+    {
+      "time_utc": "2026-10-05T21:28:10.426681+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help costo",
+      "after": "Text A is about the how AI can help costom",
+      "change_position": 41,
+      "cursor": 42
+    },
+    {
+      "time_utc": "2026-10-05T21:28:10.560036+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help costom",
+      "after": "Text A is about the how AI can help costome",
+      "change_position": 42,
+      "cursor": 43
+    },
+    {
+      "time_utc": "2026-10-05T21:28:10.659954+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help costome",
+      "after": "Text A is about the how AI can help costomer",
+      "change_position": 43,
+      "cursor": 44
+    },
+    {
+      "time_utc": "2026-10-05T21:28:10.914174+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help costomer",
+      "after": "Text A is about the how AI can help costomer ",
+      "change_position": 44,
+      "cursor": 45
+    },
+    {
+      "time_utc": "2026-10-05T21:28:11.625921+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help costomer ",
+      "after": "Text A is about the how AI can help costomer",
+      "change_position": 44,
+      "cursor": 44
+    },
+    {
+      "time_utc": "2026-10-05T21:28:11.807946+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help costomer",
+      "after": "Text A is about the how AI can help costome",
+      "change_position": 43,
+      "cursor": 43
+    },
+    {
+      "time_utc": "2026-10-05T21:28:11.992782+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help costome",
+      "after": "Text A is about the how AI can help costom",
+      "change_position": 42,
+      "cursor": 42
+    },
+    {
+      "time_utc": "2026-10-05T21:28:12.181541+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help costom",
+      "after": "Text A is about the how AI can help costo",
+      "change_position": 41,
+      "cursor": 41
+    },
+    {
+      "time_utc": "2026-10-05T21:28:12.363416+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help costo",
+      "after": "Text A is about the how AI can help cost",
+      "change_position": 40,
+      "cursor": 40
+    },
+    {
+      "time_utc": "2026-10-05T21:28:12.544667+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help cost",
+      "after": "Text A is about the how AI can help cos",
+      "change_position": 39,
+      "cursor": 39
+    },
+    {
+      "time_utc": "2026-10-05T21:28:12.728997+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help cos",
+      "after": "Text A is about the how AI can help co",
+      "change_position": 38,
+      "cursor": 38
+    },
+    {
+      "time_utc": "2026-10-05T21:28:13.052906+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help co",
+      "after": "Text A is about the how AI can help c",
+      "change_position": 37,
+      "cursor": 37
+    },
+    {
+      "time_utc": "2026-10-05T21:28:13.211512+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help c",
+      "after": "Text A is about the how AI can help ca",
+      "change_position": 37,
+      "cursor": 38
+    },
+    {
+      "time_utc": "2026-10-05T21:28:13.392292+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help ca",
+      "after": "Text A is about the how AI can help cas",
+      "change_position": 38,
+      "cursor": 39
+    },
+    {
+      "time_utc": "2026-10-05T21:28:14.182353+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help cas",
+      "after": "Text A is about the how AI can help ca",
+      "change_position": 38,
+      "cursor": 38
+    },
+    {
+      "time_utc": "2026-10-05T21:28:14.352657+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help ca",
+      "after": "Text A is about the how AI can help c",
+      "change_position": 37,
+      "cursor": 37
+    },
+    {
+      "time_utc": "2026-10-05T21:28:14.658938+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help c",
+      "after": "Text A is about the how AI can help cu",
+      "change_position": 37,
+      "cursor": 38
+    },
+    {
+      "time_utc": "2026-10-05T21:28:14.919217+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help cu",
+      "after": "Text A is about the how AI can help cus",
+      "change_position": 38,
+      "cursor": 39
+    },
+    {
+      "time_utc": "2026-10-05T21:28:15.473199+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help cus",
+      "after": "Text A is about the how AI can help cust",
+      "change_position": 39,
+      "cursor": 40
+    },
+    {
+      "time_utc": "2026-10-05T21:28:15.557756+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help cust",
+      "after": "Text A is about the how AI can help custo",
+      "change_position": 40,
+      "cursor": 41
+    },
+    {
+      "time_utc": "2026-10-05T21:28:15.679710+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help custo",
+      "after": "Text A is about the how AI can help custom",
+      "change_position": 41,
+      "cursor": 42
+    },
+    {
+      "time_utc": "2026-10-05T21:28:15.782995+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help custom",
+      "after": "Text A is about the how AI can help custome",
+      "change_position": 42,
+      "cursor": 43
+    },
+    {
+      "time_utc": "2026-10-05T21:28:15.893081+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help custome",
+      "after": "Text A is about the how AI can help customer",
+      "change_position": 43,
+      "cursor": 44
+    },
+    {
+      "time_utc": "2026-10-05T21:28:16.062289+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer",
+      "after": "Text A is about the how AI can help customer ",
+      "change_position": 44,
+      "cursor": 45
+    },
+    {
+      "time_utc": "2026-10-05T21:28:16.612487+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer ",
+      "after": "Text A is about the how AI can help customer s",
+      "change_position": 45,
+      "cursor": 46
+    },
+    {
+      "time_utc": "2026-10-05T21:28:16.701686+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer s",
+      "after": "Text A is about the how AI can help customer se",
+      "change_position": 46,
+      "cursor": 47
+    },
+    {
+      "time_utc": "2026-10-05T21:28:16.811911+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer se",
+      "after": "Text A is about the how AI can help customer ser",
+      "change_position": 47,
+      "cursor": 48
+    },
+    {
+      "time_utc": "2026-10-05T21:28:17.098395+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer ser",
+      "after": "Text A is about the how AI can help customer serv",
+      "change_position": 48,
+      "cursor": 49
+    },
+    {
+      "time_utc": "2026-10-05T21:28:17.335367+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer serv",
+      "after": "Text A is about the how AI can help customer servi",
+      "change_position": 49,
+      "cursor": 50
+    },
+    {
+      "time_utc": "2026-10-05T21:28:18.776211+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer servi",
+      "after": "Text A is about the how AI can help customer servic",
+      "change_position": 50,
+      "cursor": 51
+    },
+    {
+      "time_utc": "2026-10-05T21:28:18.838676+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer servic",
+      "after": "Text A is about the how AI can help customer service",
+      "change_position": 51,
+      "cursor": 52
+    },
+    {
+      "time_utc": "2026-10-05T21:28:19.167911+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service",
+      "after": "Text A is about the how AI can help customer service ",
+      "change_position": 52,
+      "cursor": 53
+    },
+    {
+      "time_utc": "2026-10-05T21:28:21.952457+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service ",
+      "after": "Text A is about the how AI can help customer service i",
+      "change_position": 53,
+      "cursor": 54
+    },
+    {
+      "time_utc": "2026-10-05T21:28:22.161663+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service i",
+      "after": "Text A is about the how AI can help customer service in",
+      "change_position": 54,
+      "cursor": 55
+    },
+    {
+      "time_utc": "2026-10-05T21:28:22.419319+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in",
+      "after": "Text A is about the how AI can help customer service in ",
+      "change_position": 55,
+      "cursor": 56
+    },
+    {
+      "time_utc": "2026-10-05T21:28:23.178656+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in ",
+      "after": "Text A is about the how AI can help customer service in t",
+      "change_position": 56,
+      "cursor": 57
+    },
+    {
+      "time_utc": "2026-10-05T21:28:23.310407+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in t",
+      "after": "Text A is about the how AI can help customer service in th",
+      "change_position": 57,
+      "cursor": 58
+    },
+    {
+      "time_utc": "2026-10-05T21:28:23.409052+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in th",
+      "after": "Text A is about the how AI can help customer service in the",
+      "change_position": 58,
+      "cursor": 59
+    },
+    {
+      "time_utc": "2026-10-05T21:28:23.534263+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the",
+      "after": "Text A is about the how AI can help customer service in the ",
+      "change_position": 59,
+      "cursor": 60
+    },
+    {
+      "time_utc": "2026-10-05T21:28:23.716576+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the ",
+      "after": "Text A is about the how AI can help customer service in the o",
+      "change_position": 60,
+      "cursor": 61
+    },
+    {
+      "time_utc": "2026-10-05T21:28:23.891743+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the o",
+      "after": "Text A is about the how AI can help customer service in the on",
+      "change_position": 61,
+      "cursor": 62
+    },
+    {
+      "time_utc": "2026-10-05T21:28:24.571254+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the on",
+      "after": "Text A is about the how AI can help customer service in the onl",
+      "change_position": 62,
+      "cursor": 63
+    },
+    {
+      "time_utc": "2026-10-05T21:28:24.831649+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the onl",
+      "after": "Text A is about the how AI can help customer service in the onln",
+      "change_position": 63,
+      "cursor": 64
+    },
+    {
+      "time_utc": "2026-10-05T21:28:25.387676+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the onln",
+      "after": "Text A is about the how AI can help customer service in the onl",
+      "change_position": 63,
+      "cursor": 63
+    },
+    {
+      "time_utc": "2026-10-05T21:28:25.697306+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the onl",
+      "after": "Text A is about the how AI can help customer service in the onli",
+      "change_position": 63,
+      "cursor": 64
+    },
+    {
+      "time_utc": "2026-10-05T21:28:25.850906+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the onli",
+      "after": "Text A is about the how AI can help customer service in the onlin",
+      "change_position": 64,
+      "cursor": 65
+    },
+    {
+      "time_utc": "2026-10-05T21:28:25.976430+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the onlin",
+      "after": "Text A is about the how AI can help customer service in the online",
+      "change_position": 65,
+      "cursor": 66
+    },
+    {
+      "time_utc": "2026-10-05T21:28:26.103594+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online",
+      "after": "Text A is about the how AI can help customer service in the online ",
+      "change_position": 66,
+      "cursor": 67
+    },
+    {
+      "time_utc": "2026-10-05T21:28:26.277322+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online ",
+      "after": "Text A is about the how AI can help customer service in the online s",
+      "change_position": 67,
+      "cursor": 68
+    },
+    {
+      "time_utc": "2026-10-05T21:28:26.392151+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online s",
+      "after": "Text A is about the how AI can help customer service in the online sh",
+      "change_position": 68,
+      "cursor": 69
+    },
+    {
+      "time_utc": "2026-10-05T21:28:26.484158+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online sh",
+      "after": "Text A is about the how AI can help customer service in the online sho",
+      "change_position": 69,
+      "cursor": 70
+    },
+    {
+      "time_utc": "2026-10-05T21:28:26.810259+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online sho",
+      "after": "Text A is about the how AI can help customer service in the online shol",
+      "change_position": 70,
+      "cursor": 71
+    },
+    {
+      "time_utc": "2026-10-05T21:28:27.001586+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shol",
+      "after": "Text A is about the how AI can help customer service in the online sholl",
+      "change_position": 71,
+      "cursor": 72
+    },
+    {
+      "time_utc": "2026-10-05T21:28:27.166978+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online sholl",
+      "after": "Text A is about the how AI can help customer service in the online sholli",
+      "change_position": 72,
+      "cursor": 73
+    },
+    {
+      "time_utc": "2026-10-05T21:28:27.319884+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online sholli",
+      "after": "Text A is about the how AI can help customer service in the online shollin",
+      "change_position": 73,
+      "cursor": 74
+    },
+    {
+      "time_utc": "2026-10-05T21:28:27.604217+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shollin",
+      "after": "Text A is about the how AI can help customer service in the online sholli",
+      "change_position": 73,
+      "cursor": 73
+    },
+    {
+      "time_utc": "2026-10-05T21:28:27.767141+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online sholli",
+      "after": "Text A is about the how AI can help customer service in the online sholl",
+      "change_position": 72,
+      "cursor": 72
+    },
+    {
+      "time_utc": "2026-10-05T21:28:27.927486+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online sholl",
+      "after": "Text A is about the how AI can help customer service in the online shol",
+      "change_position": 71,
+      "cursor": 71
+    },
+    {
+      "time_utc": "2026-10-05T21:28:28.091805+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shol",
+      "after": "Text A is about the how AI can help customer service in the online sho",
+      "change_position": 70,
+      "cursor": 70
+    },
+    {
+      "time_utc": "2026-10-05T21:28:28.636927+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online sho",
+      "after": "Text A is about the how AI can help customer service in the online shop",
+      "change_position": 70,
+      "cursor": 71
+    },
+    {
+      "time_utc": "2026-10-05T21:28:28.749251+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shop",
+      "after": "Text A is about the how AI can help customer service in the online shopp",
+      "change_position": 71,
+      "cursor": 72
+    },
+    {
+      "time_utc": "2026-10-05T21:28:28.929536+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopp",
+      "after": "Text A is about the how AI can help customer service in the online shoppi",
+      "change_position": 72,
+      "cursor": 73
+    },
+    {
+      "time_utc": "2026-10-05T21:28:29.075426+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shoppi",
+      "after": "Text A is about the how AI can help customer service in the online shoppin",
+      "change_position": 73,
+      "cursor": 74
+    },
+    {
+      "time_utc": "2026-10-05T21:28:29.230206+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shoppin",
+      "after": "Text A is about the how AI can help customer service in the online shopping",
+      "change_position": 74,
+      "cursor": 75
+    },
+    {
+      "time_utc": "2026-10-05T21:28:30.139752+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping",
+      "after": "Text A is about the how AI can help customer service in the online shopping.",
+      "change_position": 75,
+      "cursor": 76
+    },
+    {
+      "time_utc": "2026-10-05T21:28:30.146828+00:00",
+      "type": "new_sentence",
+      "sentence_number": 0,
+      "sentence": "Text A is about the how AI can help customer service in the online shopping.",
+      "current_draft": "Text A is about the how AI can help customer service in the online shopping."
+    },
+    {
+      "time_utc": "2026-10-05T21:28:30.323644+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping.",
+      "after": "Text A is about the how AI can help customer service in the online shopping. ",
+      "change_position": 76,
+      "cursor": 77
+    },
+    {
+      "time_utc": "2026-10-05T21:28:36.457427+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. ",
+      "after": "Text A is about the how AI can help customer service in the online shopping. O",
+      "change_position": 77,
+      "cursor": 78
+    },
+    {
+      "time_utc": "2026-10-05T21:28:36.632292+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. O",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On",
+      "change_position": 78,
+      "cursor": 79
+    },
+    {
+      "time_utc": "2026-10-05T21:28:36.803440+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On ",
+      "change_position": 79,
+      "cursor": 80
+    },
+    {
+      "time_utc": "2026-10-05T21:28:36.967004+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On ",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On t",
+      "change_position": 80,
+      "cursor": 81
+    },
+    {
+      "time_utc": "2026-10-05T21:28:37.094632+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On t",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On th",
+      "change_position": 81,
+      "cursor": 82
+    },
+    {
+      "time_utc": "2026-10-05T21:28:37.206828+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On th",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the",
+      "change_position": 82,
+      "cursor": 83
+    },
+    {
+      "time_utc": "2026-10-05T21:28:37.325825+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the ",
+      "change_position": 83,
+      "cursor": 84
+    },
+    {
+      "time_utc": "2026-10-05T21:28:37.527501+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the ",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the o",
+      "change_position": 84,
+      "cursor": 85
+    },
+    {
+      "time_utc": "2026-10-05T21:28:37.690934+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the o",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the ot",
+      "change_position": 85,
+      "cursor": 86
+    },
+    {
+      "time_utc": "2026-10-05T21:28:37.792942+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the ot",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the oth",
+      "change_position": 86,
+      "cursor": 87
+    },
+    {
+      "time_utc": "2026-10-05T21:28:37.892162+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the oth",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the othe",
+      "change_position": 87,
+      "cursor": 88
+    },
+    {
+      "time_utc": "2026-10-05T21:28:37.988219+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the othe",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other",
+      "change_position": 88,
+      "cursor": 89
+    },
+    {
+      "time_utc": "2026-10-05T21:28:38.136182+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other ",
+      "change_position": 89,
+      "cursor": 90
+    },
+    {
+      "time_utc": "2026-10-05T21:28:38.434783+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other ",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other h",
+      "change_position": 90,
+      "cursor": 91
+    },
+    {
+      "time_utc": "2026-10-05T21:28:38.527112+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other h",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other ha",
+      "change_position": 91,
+      "cursor": 92
+    },
+    {
+      "time_utc": "2026-10-05T21:28:38.664808+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other ha",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other han",
+      "change_position": 92,
+      "cursor": 93
+    },
+    {
+      "time_utc": "2026-10-05T21:28:38.808496+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other han",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand",
+      "change_position": 93,
+      "cursor": 94
+    },
+    {
+      "time_utc": "2026-10-05T21:28:39.034793+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand,",
+      "change_position": 94,
+      "cursor": 95
+    },
+    {
+      "time_utc": "2026-10-05T21:28:39.247244+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand,",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, ",
+      "change_position": 95,
+      "cursor": 96
+    },
+    {
+      "time_utc": "2026-10-05T21:28:40.054755+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, ",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, t",
+      "change_position": 96,
+      "cursor": 97
+    },
+    {
+      "time_utc": "2026-10-05T21:28:40.174793+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, t",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, th",
+      "change_position": 97,
+      "cursor": 98
+    },
+    {
+      "time_utc": "2026-10-05T21:28:40.275506+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, th",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, the",
+      "change_position": 98,
+      "cursor": 99
+    },
+    {
+      "time_utc": "2026-10-05T21:28:40.432056+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, the",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, the ",
+      "change_position": 99,
+      "cursor": 100
+    },
+    {
+      "time_utc": "2026-10-05T21:28:40.856352+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, the ",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, the",
+      "change_position": 99,
+      "cursor": 99
+    },
+    {
+      "time_utc": "2026-10-05T21:28:41.087578+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, the",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, thet",
+      "change_position": 99,
+      "cursor": 100
+    },
+    {
+      "time_utc": "2026-10-05T21:28:41.807085+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, thet",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, the",
+      "change_position": 99,
+      "cursor": 99
+    },
+    {
+      "time_utc": "2026-10-05T21:28:42.009610+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, the",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, th",
+      "change_position": 98,
+      "cursor": 98
+    },
+    {
+      "time_utc": "2026-10-05T21:28:42.176007+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, th",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, t",
+      "change_position": 97,
+      "cursor": 97
+    },
+    {
+      "time_utc": "2026-10-05T21:28:42.749922+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, t",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, te",
+      "change_position": 97,
+      "cursor": 98
+    },
+    {
+      "time_utc": "2026-10-05T21:28:42.979123+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, te",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, tex",
+      "change_position": 98,
+      "cursor": 99
+    },
+    {
+      "time_utc": "2026-10-05T21:28:43.176383+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, tex",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text",
+      "change_position": 99,
+      "cursor": 100
+    },
+    {
+      "time_utc": "2026-10-05T21:28:43.377897+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text ",
+      "change_position": 100,
+      "cursor": 101
+    },
+    {
+      "time_utc": "2026-10-05T21:28:44.811667+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text ",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B",
+      "change_position": 101,
+      "cursor": 102
+    },
+    {
+      "time_utc": "2026-10-05T21:28:45.081265+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B ",
+      "change_position": 102,
+      "cursor": 103
+    },
+    {
+      "time_utc": "2026-10-05T21:28:45.927789+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B ",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B i",
+      "change_position": 103,
+      "cursor": 104
+    },
+    {
+      "time_utc": "2026-10-05T21:28:46.025447+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B i",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is",
+      "change_position": 104,
+      "cursor": 105
+    },
+    {
+      "time_utc": "2026-10-05T21:28:46.158206+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is ",
+      "change_position": 105,
+      "cursor": 106
+    },
+    {
+      "time_utc": "2026-10-05T21:28:46.289399+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is ",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is a",
+      "change_position": 106,
+      "cursor": 107
+    },
+    {
+      "time_utc": "2026-10-05T21:28:46.497071+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is a",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is ao",
+      "change_position": 107,
+      "cursor": 108
+    },
+    {
+      "time_utc": "2026-10-05T21:28:47.082533+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is ao",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is a",
+      "change_position": 107,
+      "cursor": 107
+    },
+    {
+      "time_utc": "2026-10-05T21:28:47.316294+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is a",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is ",
+      "change_position": 106,
+      "cursor": 106
+    },
+    {
+      "time_utc": "2026-10-05T21:28:48.017449+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is ",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is a",
+      "change_position": 106,
+      "cursor": 107
+    },
+    {
+      "time_utc": "2026-10-05T21:28:48.414765+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is a",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is ab",
+      "change_position": 107,
+      "cursor": 108
+    },
+    {
+      "time_utc": "2026-10-05T21:28:48.508813+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is ab",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is abo",
+      "change_position": 108,
+      "cursor": 109
+    },
+    {
+      "time_utc": "2026-10-05T21:28:48.643869+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is abo",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is abou",
+      "change_position": 109,
+      "cursor": 110
+    },
+    {
+      "time_utc": "2026-10-05T21:28:48.772325+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is abou",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is about",
+      "change_position": 110,
+      "cursor": 111
+    },
+    {
+      "time_utc": "2026-10-05T21:28:48.987128+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is about",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is about ",
+      "change_position": 111,
+      "cursor": 112
+    },
+    {
+      "time_utc": "2026-10-05T21:28:53.302203+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is about ",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is about",
+      "change_position": 111,
+      "cursor": 111
+    },
+    {
+      "time_utc": "2026-10-05T21:28:53.499063+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is about",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is abou",
+      "change_position": 110,
+      "cursor": 110
+    },
+    {
+      "time_utc": "2026-10-05T21:28:53.686554+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is abou",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is abo",
+      "change_position": 109,
+      "cursor": 109
+    },
+    {
+      "time_utc": "2026-10-05T21:28:53.879987+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is abo",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is ab",
+      "change_position": 108,
+      "cursor": 108
+    },
+    {
+      "time_utc": "2026-10-05T21:28:54.071792+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is ab",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is a",
+      "change_position": 107,
+      "cursor": 107
+    },
+    {
+      "time_utc": "2026-10-05T21:28:54.533785+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is a",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is ",
+      "change_position": 106,
+      "cursor": 106
+    },
+    {
+      "time_utc": "2026-10-05T21:28:55.191799+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is ",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is",
+      "change_position": 105,
+      "cursor": 105
+    },
+    {
+      "time_utc": "2026-10-05T21:28:55.366838+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B is",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B i",
+      "change_position": 104,
+      "cursor": 104
+    },
+    {
+      "time_utc": "2026-10-05T21:28:55.558061+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B i",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B ",
+      "change_position": 103,
+      "cursor": 103
+    },
+    {
+      "time_utc": "2026-10-05T21:28:57.559575+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B ",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B s",
+      "change_position": 103,
+      "cursor": 104
+    },
+    {
+      "time_utc": "2026-10-05T21:28:57.812634+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B s",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B st",
+      "change_position": 104,
+      "cursor": 105
+    },
+    {
+      "time_utc": "2026-10-05T21:28:57.915964+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B st",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B sta",
+      "change_position": 105,
+      "cursor": 106
+    },
+    {
+      "time_utc": "2026-10-05T21:28:58.067985+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B sta",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B stat",
+      "change_position": 106,
+      "cursor": 107
+    },
+    {
+      "time_utc": "2026-10-05T21:28:58.195671+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B stat",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B state",
+      "change_position": 107,
+      "cursor": 108
+    },
+    {
+      "time_utc": "2026-10-05T21:28:58.287751+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B state",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states",
+      "change_position": 108,
+      "cursor": 109
+    },
+    {
+      "time_utc": "2026-10-05T21:28:58.525361+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states ",
+      "change_position": 109,
+      "cursor": 110
+    },
+    {
+      "time_utc": "2026-10-05T21:28:58.997886+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states ",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states t",
+      "change_position": 110,
+      "cursor": 111
+    },
+    {
+      "time_utc": "2026-10-05T21:28:59.109757+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states t",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states th",
+      "change_position": 111,
+      "cursor": 112
+    },
+    {
+      "time_utc": "2026-10-05T21:28:59.225594+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states th",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states tha",
+      "change_position": 112,
+      "cursor": 113
+    },
+    {
+      "time_utc": "2026-10-05T21:28:59.321308+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states tha",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states that",
+      "change_position": 113,
+      "cursor": 114
+    },
+    {
+      "time_utc": "2026-10-05T21:28:59.481440+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states that",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states that ",
+      "change_position": 114,
+      "cursor": 115
+    },
+    {
+      "time_utc": "2026-10-05T21:29:08.792155+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states that ",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states that u",
+      "change_position": 115,
+      "cursor": 116
+    },
+    {
+      "time_utc": "2026-10-05T21:29:08.956856+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states that u",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states that us",
+      "change_position": 116,
+      "cursor": 117
+    },
+    {
+      "time_utc": "2026-10-05T21:29:09.095731+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states that us",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states that usi",
+      "change_position": 117,
+      "cursor": 118
+    },
+    {
+      "time_utc": "2026-10-05T21:29:09.316432+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states that usi",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states that usin",
+      "change_position": 118,
+      "cursor": 119
+    },
+    {
+      "time_utc": "2026-10-05T21:29:09.538605+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states that usin",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states that using",
+      "change_position": 119,
+      "cursor": 120
+    },
+    {
+      "time_utc": "2026-10-05T21:29:09.822039+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states that using",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states that usin",
+      "change_position": 119,
+      "cursor": 119
+    },
+    {
+      "time_utc": "2026-10-05T21:29:10.013041+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states that usin",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states that usi",
+      "change_position": 118,
+      "cursor": 118
+    },
+    {
+      "time_utc": "2026-10-05T21:29:10.194529+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states that usi",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states that us",
+      "change_position": 117,
+      "cursor": 117
+    },
+    {
+      "time_utc": "2026-10-05T21:29:10.381540+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states that us",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states that u",
+      "change_position": 116,
+      "cursor": 116
+    },
+    {
+      "time_utc": "2026-10-05T21:29:10.733130+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states that u",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states that ",
+      "change_position": 115,
+      "cursor": 115
+    },
+    {
+      "time_utc": "2026-10-05T21:29:11.710338+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states that ",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states that",
+      "change_position": 114,
+      "cursor": 114
+    },
+    {
+      "time_utc": "2026-10-05T21:29:12.209006+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states that",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states tha",
+      "change_position": 113,
+      "cursor": 113
+    },
+    {
+      "time_utc": "2026-10-05T21:29:12.292068+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states tha",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states th",
+      "change_position": 112,
+      "cursor": 112
+    },
+    {
+      "time_utc": "2026-10-05T21:29:15.012673+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states th",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the",
+      "change_position": 112,
+      "cursor": 113
+    },
+    {
+      "time_utc": "2026-10-05T21:29:15.285630+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the ",
+      "change_position": 113,
+      "cursor": 114
+    },
+    {
+      "time_utc": "2026-10-05T21:29:16.229331+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the ",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the i",
+      "change_position": 114,
+      "cursor": 115
+    },
+    {
+      "time_utc": "2026-10-05T21:29:16.411718+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the i",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the is",
+      "change_position": 115,
+      "cursor": 116
+    },
+    {
+      "time_utc": "2026-10-05T21:29:16.569744+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the is",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the iss",
+      "change_position": 116,
+      "cursor": 117
+    },
+    {
+      "time_utc": "2026-10-05T21:29:16.723828+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the iss",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issu",
+      "change_position": 117,
+      "cursor": 118
+    },
+    {
+      "time_utc": "2026-10-05T21:29:16.845077+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issu",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issus",
+      "change_position": 118,
+      "cursor": 119
+    },
+    {
+      "time_utc": "2026-10-05T21:29:17.565472+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issus",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issu",
+      "change_position": 118,
+      "cursor": 118
+    },
+    {
+      "time_utc": "2026-10-05T21:29:17.730606+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issu",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue",
+      "change_position": 118,
+      "cursor": 119
+    },
+    {
+      "time_utc": "2026-10-05T21:29:18.914661+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue ",
+      "change_position": 119,
+      "cursor": 120
+    },
+    {
+      "time_utc": "2026-10-05T21:29:19.172269+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue ",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue u",
+      "change_position": 120,
+      "cursor": 121
+    },
+    {
+      "time_utc": "2026-10-05T21:29:19.311878+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue u",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue us",
+      "change_position": 121,
+      "cursor": 122
+    },
+    {
+      "time_utc": "2026-10-05T21:29:19.402627+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue us",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue usi",
+      "change_position": 122,
+      "cursor": 123
+    },
+    {
+      "time_utc": "2026-10-05T21:29:19.541937+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue usi",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue usin",
+      "change_position": 123,
+      "cursor": 124
+    },
+    {
+      "time_utc": "2026-10-05T21:29:19.661168+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue usin",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using",
+      "change_position": 124,
+      "cursor": 125
+    },
+    {
+      "time_utc": "2026-10-05T21:29:19.781823+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using ",
+      "change_position": 125,
+      "cursor": 126
+    },
+    {
+      "time_utc": "2026-10-05T21:29:20.836449+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using ",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using A",
+      "change_position": 126,
+      "cursor": 127
+    },
+    {
+      "time_utc": "2026-10-05T21:29:21.059495+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using A",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI",
+      "change_position": 127,
+      "cursor": 128
+    },
+    {
+      "time_utc": "2026-10-05T21:29:21.275079+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI ",
+      "change_position": 128,
+      "cursor": 129
+    },
+    {
+      "time_utc": "2026-10-05T21:29:23.783123+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI ",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI i",
+      "change_position": 129,
+      "cursor": 130
+    },
+    {
+      "time_utc": "2026-10-05T21:29:23.912907+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI i",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in",
+      "change_position": 130,
+      "cursor": 131
+    },
+    {
+      "time_utc": "2026-10-05T21:29:24.099978+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in ",
+      "change_position": 131,
+      "cursor": 132
+    },
+    {
+      "time_utc": "2026-10-05T21:29:24.834425+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in ",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in c",
+      "change_position": 132,
+      "cursor": 133
+    },
+    {
+      "time_utc": "2026-10-05T21:29:24.990044+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in c",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in co",
+      "change_position": 133,
+      "cursor": 134
+    },
+    {
+      "time_utc": "2026-10-05T21:29:25.184872+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in co",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in cos",
+      "change_position": 134,
+      "cursor": 135
+    },
+    {
+      "time_utc": "2026-10-05T21:29:25.809532+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in cos",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in co",
+      "change_position": 134,
+      "cursor": 134
+    },
+    {
+      "time_utc": "2026-10-05T21:29:26.014517+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in co",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in c",
+      "change_position": 133,
+      "cursor": 133
+    },
+    {
+      "time_utc": "2026-10-05T21:29:26.335590+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in c",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in cu",
+      "change_position": 133,
+      "cursor": 134
+    },
+    {
+      "time_utc": "2026-10-05T21:29:26.516612+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in cu",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in cus",
+      "change_position": 134,
+      "cursor": 135
+    },
+    {
+      "time_utc": "2026-10-05T21:29:26.842875+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in cus",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in cust",
+      "change_position": 135,
+      "cursor": 136
+    },
+    {
+      "time_utc": "2026-10-05T21:29:26.938510+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in cust",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in custo",
+      "change_position": 136,
+      "cursor": 137
+    },
+    {
+      "time_utc": "2026-10-05T21:29:27.111131+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in custo",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in custom",
+      "change_position": 137,
+      "cursor": 138
+    },
+    {
+      "time_utc": "2026-10-05T21:29:27.225309+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in custom",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in custome",
+      "change_position": 138,
+      "cursor": 139
+    },
+    {
+      "time_utc": "2026-10-05T21:29:27.338332+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in custome",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer",
+      "change_position": 139,
+      "cursor": 140
+    },
+    {
+      "time_utc": "2026-10-05T21:29:27.502071+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer ",
+      "change_position": 140,
+      "cursor": 141
+    },
+    {
+      "time_utc": "2026-10-05T21:29:27.698477+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer ",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer s",
+      "change_position": 141,
+      "cursor": 142
+    },
+    {
+      "time_utc": "2026-10-05T21:29:27.795814+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer s",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer se",
+      "change_position": 142,
+      "cursor": 143
+    },
+    {
+      "time_utc": "2026-10-05T21:29:27.919389+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer se",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer ser",
+      "change_position": 143,
+      "cursor": 144
+    },
+    {
+      "time_utc": "2026-10-05T21:29:28.472336+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer ser",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer serv",
+      "change_position": 144,
+      "cursor": 145
+    },
+    {
+      "time_utc": "2026-10-05T21:29:28.591249+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer serv",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer servi",
+      "change_position": 145,
+      "cursor": 146
+    },
+    {
+      "time_utc": "2026-10-05T21:29:30.211430+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer servi",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer servic",
+      "change_position": 146,
+      "cursor": 147
+    },
+    {
+      "time_utc": "2026-10-05T21:29:30.271307+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer servic",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service",
+      "change_position": 147,
+      "cursor": 148
+    },
+    {
+      "time_utc": "2026-10-05T21:29:30.447380+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service ",
+      "change_position": 148,
+      "cursor": 149
+    },
+    {
+      "time_utc": "2026-10-05T21:29:30.913633+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service ",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service e",
+      "change_position": 149,
+      "cursor": 150
+    },
+    {
+      "time_utc": "2026-10-05T21:29:31.109055+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service e",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service es",
+      "change_position": 150,
+      "cursor": 151
+    },
+    {
+      "time_utc": "2026-10-05T21:29:31.318591+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service es",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service esp",
+      "change_position": 151,
+      "cursor": 152
+    },
+    {
+      "time_utc": "2026-10-05T21:29:31.474401+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service esp",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service espe",
+      "change_position": 152,
+      "cursor": 153
+    },
+    {
+      "time_utc": "2026-10-05T21:29:31.698467+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service espe",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service espec",
+      "change_position": 153,
+      "cursor": 154
+    },
+    {
+      "time_utc": "2026-10-05T21:29:31.822520+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service espec",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especi",
+      "change_position": 154,
+      "cursor": 155
+    },
+    {
+      "time_utc": "2026-10-05T21:29:31.925148+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especi",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especia",
+      "change_position": 155,
+      "cursor": 156
+    },
+    {
+      "time_utc": "2026-10-05T21:29:32.058718+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especia",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especial",
+      "change_position": 156,
+      "cursor": 157
+    },
+    {
+      "time_utc": "2026-10-05T21:29:32.215729+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especial",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especiall",
+      "change_position": 157,
+      "cursor": 158
+    },
+    {
+      "time_utc": "2026-10-05T21:29:32.364511+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especiall",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially",
+      "change_position": 158,
+      "cursor": 159
+    },
+    {
+      "time_utc": "2026-10-05T21:29:32.501749+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially ",
+      "change_position": 159,
+      "cursor": 160
+    },
+    {
+      "time_utc": "2026-10-05T21:29:33.850553+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially ",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially d",
+      "change_position": 160,
+      "cursor": 161
+    },
+    {
+      "time_utc": "2026-10-05T21:29:34.064153+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially d",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially de",
+      "change_position": 161,
+      "cursor": 162
+    },
+    {
+      "time_utc": "2026-10-05T21:29:34.229970+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially de",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially dee",
+      "change_position": 162,
+      "cursor": 163
+    },
+    {
+      "time_utc": "2026-10-05T21:29:34.401972+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially dee",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deep",
+      "change_position": 163,
+      "cursor": 164
+    },
+    {
+      "time_utc": "2026-10-05T21:29:34.589259+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deep",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deepe",
+      "change_position": 164,
+      "cursor": 165
+    },
+    {
+      "time_utc": "2026-10-05T21:29:34.729907+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deepe",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper",
+      "change_position": 165,
+      "cursor": 166
+    },
+    {
+      "time_utc": "2026-10-05T21:29:34.952518+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper ",
+      "change_position": 166,
+      "cursor": 167
+    },
+    {
+      "time_utc": "2026-10-05T21:29:36.452614+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper ",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper m",
+      "change_position": 167,
+      "cursor": 168
+    },
+    {
+      "time_utc": "2026-10-05T21:29:37.343147+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper m",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper ",
+      "change_position": 167,
+      "cursor": 167
+    },
+    {
+      "time_utc": "2026-10-05T21:29:37.510859+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper ",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper e",
+      "change_position": 167,
+      "cursor": 168
+    },
+    {
+      "time_utc": "2026-10-05T21:29:37.741125+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper e",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper em",
+      "change_position": 168,
+      "cursor": 169
+    },
+    {
+      "time_utc": "2026-10-05T21:29:37.841732+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper em",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emo",
+      "change_position": 169,
+      "cursor": 170
+    },
+    {
+      "time_utc": "2026-10-05T21:29:38.061049+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emo",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emot",
+      "change_position": 170,
+      "cursor": 171
+    },
+    {
+      "time_utc": "2026-10-05T21:29:38.161089+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emot",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emoti",
+      "change_position": 171,
+      "cursor": 172
+    },
+    {
+      "time_utc": "2026-10-05T21:29:38.245023+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emoti",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotio",
+      "change_position": 172,
+      "cursor": 173
+    },
+    {
+      "time_utc": "2026-10-05T21:29:38.391383+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotio",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotion",
+      "change_position": 173,
+      "cursor": 174
+    },
+    {
+      "time_utc": "2026-10-05T21:29:38.442067+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotion",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotiona",
+      "change_position": 174,
+      "cursor": 175
+    },
+    {
+      "time_utc": "2026-10-05T21:29:38.680153+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotiona",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional",
+      "change_position": 175,
+      "cursor": 176
+    },
+    {
+      "time_utc": "2026-10-05T21:29:39.069562+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional ",
+      "change_position": 176,
+      "cursor": 177
+    },
+    {
+      "time_utc": "2026-10-05T21:29:39.692965+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional ",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional c",
+      "change_position": 177,
+      "cursor": 178
+    },
+    {
+      "time_utc": "2026-10-05T21:29:39.798964+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional c",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional ca",
+      "change_position": 178,
+      "cursor": 179
+    },
+    {
+      "time_utc": "2026-10-05T21:29:39.974443+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional ca",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional car",
+      "change_position": 179,
+      "cursor": 180
+    },
+    {
+      "time_utc": "2026-10-05T21:29:40.070919+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional car",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care",
+      "change_position": 180,
+      "cursor": 181
+    },
+    {
+      "time_utc": "2026-10-05T21:29:41.075904+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care ",
+      "change_position": 181,
+      "cursor": 182
+    },
+    {
+      "time_utc": "2026-10-05T21:29:41.231772+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care ",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care i",
+      "change_position": 182,
+      "cursor": 183
+    },
+    {
+      "time_utc": "2026-10-05T21:29:41.357297+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care i",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is",
+      "change_position": 183,
+      "cursor": 184
+    },
+    {
+      "time_utc": "2026-10-05T21:29:41.482688+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is ",
+      "change_position": 184,
+      "cursor": 185
+    },
+    {
+      "time_utc": "2026-10-05T21:29:41.809337+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is ",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is e",
+      "change_position": 185,
+      "cursor": 186
+    },
+    {
+      "time_utc": "2026-10-05T21:29:42.216093+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is e",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is ",
+      "change_position": 185,
+      "cursor": 185
+    },
+    {
+      "time_utc": "2026-10-05T21:29:42.543960+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is ",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is n",
+      "change_position": 185,
+      "cursor": 186
+    },
+    {
+      "time_utc": "2026-10-05T21:29:42.685833+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is n",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is ne",
+      "change_position": 186,
+      "cursor": 187
+    },
+    {
+      "time_utc": "2026-10-05T21:29:42.868990+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is ne",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is nee",
+      "change_position": 187,
+      "cursor": 188
+    },
+    {
+      "time_utc": "2026-10-05T21:29:43.067916+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is nee",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is need",
+      "change_position": 188,
+      "cursor": 189
+    },
+    {
+      "time_utc": "2026-10-05T21:29:43.207888+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is need",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is neede",
+      "change_position": 189,
+      "cursor": 190
+    },
+    {
+      "time_utc": "2026-10-05T21:29:43.392504+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is neede",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed",
+      "change_position": 190,
+      "cursor": 191
+    },
+    {
+      "time_utc": "2026-10-05T21:29:43.994212+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed",
+      "after": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed.",
+      "change_position": 191,
+      "cursor": 192
+    },
+    {
+      "time_utc": "2026-10-05T21:29:44.003777+00:00",
+      "type": "new_sentence",
+      "sentence_number": 1,
+      "sentence": "On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed.",
+      "current_draft": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed."
+    },
+    {
+      "time_utc": "2026-10-05T21:29:48.614045+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed.",
+      "after": "Text A is about the how AI can hel customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed.",
+      "change_position": 34,
+      "cursor": 34
+    },
+    {
+      "time_utc": "2026-10-05T21:29:48.818134+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can hel customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed.",
+      "after": "Text A is about the how AI can he customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed.",
+      "change_position": 33,
+      "cursor": 33
+    },
+    {
+      "time_utc": "2026-10-05T21:29:49.014931+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can he customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed.",
+      "after": "Text A is about the how AI can h customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed.",
+      "change_position": 32,
+      "cursor": 32
+    },
+    {
+      "time_utc": "2026-10-05T21:29:49.220782+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can h customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed.",
+      "after": "Text A is about the how AI can  customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed.",
+      "change_position": 31,
+      "cursor": 31
+    },
+    {
+      "time_utc": "2026-10-05T21:29:49.956183+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can  customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed.",
+      "after": "Text A is about the how AI can customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed.",
+      "change_position": 31,
+      "cursor": 30
+    },
+    {
+      "time_utc": "2026-10-05T21:29:54.109093+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed.",
+      "after": "Text A is about the how AI can  customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed.",
+      "change_position": 31,
+      "cursor": 31
+    },
+    {
+      "time_utc": "2026-10-05T21:29:54.875815+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can  customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed.",
+      "after": "Text A is about the how AI can i customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed.",
+      "change_position": 31,
+      "cursor": 32
+    },
+    {
+      "time_utc": "2026-10-05T21:29:55.073855+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can i customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed.",
+      "after": "Text A is about the how AI can im customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed.",
+      "change_position": 32,
+      "cursor": 33
+    },
+    {
+      "time_utc": "2026-10-05T21:29:55.235669+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can im customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed.",
+      "after": "Text A is about the how AI can imp customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed.",
+      "change_position": 33,
+      "cursor": 34
+    },
+    {
+      "time_utc": "2026-10-05T21:29:55.468506+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can imp customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed.",
+      "after": "Text A is about the how AI can impr customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed.",
+      "change_position": 34,
+      "cursor": 35
+    },
+    {
+      "time_utc": "2026-10-05T21:29:55.591566+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can impr customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed.",
+      "after": "Text A is about the how AI can impro customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed.",
+      "change_position": 35,
+      "cursor": 36
+    },
+    {
+      "time_utc": "2026-10-05T21:29:56.299457+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can impro customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed.",
+      "after": "Text A is about the how AI can improv customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed.",
+      "change_position": 36,
+      "cursor": 37
+    },
+    {
+      "time_utc": "2026-10-05T21:29:56.445138+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improv customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed.",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed.",
+      "change_position": 37,
+      "cursor": 38
+    },
+    {
+      "time_utc": "2026-10-05T21:30:01.408879+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed.",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed.\n",
+      "change_position": 195,
+      "cursor": 196
+    },
+    {
+      "time_utc": "2026-10-05T21:30:18.699563+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed.\n",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed.",
+      "change_position": 195,
+      "cursor": 195
+    },
+    {
+      "time_utc": "2026-10-05T21:30:19.248271+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed.",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. ",
+      "change_position": 195,
+      "cursor": 196
+    },
+    {
+      "time_utc": "2026-10-05T21:30:20.411785+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. ",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. B",
+      "change_position": 196,
+      "cursor": 197
+    },
+    {
+      "time_utc": "2026-10-05T21:30:20.596917+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. B",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Bo",
+      "change_position": 197,
+      "cursor": 198
+    },
+    {
+      "time_utc": "2026-10-05T21:30:20.776808+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Bo",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Bot",
+      "change_position": 198,
+      "cursor": 199
+    },
+    {
+      "time_utc": "2026-10-05T21:30:20.890815+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Bot",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both",
+      "change_position": 199,
+      "cursor": 200
+    },
+    {
+      "time_utc": "2026-10-05T21:30:21.142944+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both ",
+      "change_position": 200,
+      "cursor": 201
+    },
+    {
+      "time_utc": "2026-10-05T21:30:25.236432+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both ",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both t",
+      "change_position": 201,
+      "cursor": 202
+    },
+    {
+      "time_utc": "2026-10-05T21:30:25.365635+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both t",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both te",
+      "change_position": 202,
+      "cursor": 203
+    },
+    {
+      "time_utc": "2026-10-05T21:30:25.940248+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both te",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both tex",
+      "change_position": 203,
+      "cursor": 204
+    },
+    {
+      "time_utc": "2026-10-05T21:30:26.221058+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both tex",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both text",
+      "change_position": 204,
+      "cursor": 205
+    },
+    {
+      "time_utc": "2026-10-05T21:30:26.452884+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both text",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts",
+      "change_position": 205,
+      "cursor": 206
+    },
+    {
+      "time_utc": "2026-10-05T21:30:26.675741+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts ",
+      "change_position": 206,
+      "cursor": 207
+    },
+    {
+      "time_utc": "2026-10-05T21:30:27.597049+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts ",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts a",
+      "change_position": 207,
+      "cursor": 208
+    },
+    {
+      "time_utc": "2026-10-05T21:30:27.698253+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts a",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts ar",
+      "change_position": 208,
+      "cursor": 209
+    },
+    {
+      "time_utc": "2026-10-05T21:30:27.824698+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts ar",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are",
+      "change_position": 209,
+      "cursor": 210
+    },
+    {
+      "time_utc": "2026-10-05T21:30:28.043491+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are ",
+      "change_position": 210,
+      "cursor": 211
+    },
+    {
+      "time_utc": "2026-10-05T21:30:43.495713+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are ",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are a",
+      "change_position": 211,
+      "cursor": 212
+    },
+    {
+      "time_utc": "2026-10-05T21:30:43.598780+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are a",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are ab",
+      "change_position": 212,
+      "cursor": 213
+    },
+    {
+      "time_utc": "2026-10-05T21:30:43.697893+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are ab",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are abo",
+      "change_position": 213,
+      "cursor": 214
+    },
+    {
+      "time_utc": "2026-10-05T21:30:43.860891+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are abo",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are abou",
+      "change_position": 214,
+      "cursor": 215
+    },
+    {
+      "time_utc": "2026-10-05T21:30:43.990034+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are abou",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about",
+      "change_position": 215,
+      "cursor": 216
+    },
+    {
+      "time_utc": "2026-10-05T21:30:44.226957+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about ",
+      "change_position": 216,
+      "cursor": 217
+    },
+    {
+      "time_utc": "2026-10-05T21:30:44.558820+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about ",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about A",
+      "change_position": 217,
+      "cursor": 218
+    },
+    {
+      "time_utc": "2026-10-05T21:30:44.827450+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about A",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI",
+      "change_position": 218,
+      "cursor": 219
+    },
+    {
+      "time_utc": "2026-10-05T21:30:45.049061+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI ",
+      "change_position": 219,
+      "cursor": 220
+    },
+    {
+      "time_utc": "2026-10-05T21:30:45.342940+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI ",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI b",
+      "change_position": 220,
+      "cursor": 221
+    },
+    {
+      "time_utc": "2026-10-05T21:30:45.455034+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI b",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI bu",
+      "change_position": 221,
+      "cursor": 222
+    },
+    {
+      "time_utc": "2026-10-05T21:30:45.602756+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI bu",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but",
+      "change_position": 222,
+      "cursor": 223
+    },
+    {
+      "time_utc": "2026-10-05T21:30:45.775883+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but ",
+      "change_position": 223,
+      "cursor": 224
+    },
+    {
+      "time_utc": "2026-10-05T21:30:47.775631+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but ",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A",
+      "change_position": 224,
+      "cursor": 225
+    },
+    {
+      "time_utc": "2026-10-05T21:30:47.944962+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A ",
+      "change_position": 225,
+      "cursor": 226
+    },
+    {
+      "time_utc": "2026-10-05T21:30:48.123578+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A ",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A i",
+      "change_position": 226,
+      "cursor": 227
+    },
+    {
+      "time_utc": "2026-10-05T21:30:48.268387+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A i",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is",
+      "change_position": 227,
+      "cursor": 228
+    },
+    {
+      "time_utc": "2026-10-05T21:30:48.375621+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is ",
+      "change_position": 228,
+      "cursor": 229
+    },
+    {
+      "time_utc": "2026-10-05T21:30:49.287092+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is ",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is p",
+      "change_position": 229,
+      "cursor": 230
+    },
+    {
+      "time_utc": "2026-10-05T21:30:49.375779+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is p",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is po",
+      "change_position": 230,
+      "cursor": 231
+    },
+    {
+      "time_utc": "2026-10-05T21:30:49.758004+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is po",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is pos",
+      "change_position": 231,
+      "cursor": 232
+    },
+    {
+      "time_utc": "2026-10-05T21:30:49.891494+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is pos",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is posi",
+      "change_position": 232,
+      "cursor": 233
+    },
+    {
+      "time_utc": "2026-10-05T21:30:50.012839+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is posi",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is posit",
+      "change_position": 233,
+      "cursor": 234
+    },
+    {
+      "time_utc": "2026-10-05T21:30:50.141501+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is posit",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positi",
+      "change_position": 234,
+      "cursor": 235
+    },
+    {
+      "time_utc": "2026-10-05T21:30:50.260943+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positi",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positiv",
+      "change_position": 235,
+      "cursor": 236
+    },
+    {
+      "time_utc": "2026-10-05T21:30:50.369829+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positiv",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive",
+      "change_position": 236,
+      "cursor": 237
+    },
+    {
+      "time_utc": "2026-10-05T21:30:50.541020+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive ",
+      "change_position": 237,
+      "cursor": 238
+    },
+    {
+      "time_utc": "2026-10-05T21:30:50.713488+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive ",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive a",
+      "change_position": 238,
+      "cursor": 239
+    },
+    {
+      "time_utc": "2026-10-05T21:30:50.857738+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive a",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive ab",
+      "change_position": 239,
+      "cursor": 240
+    },
+    {
+      "time_utc": "2026-10-05T21:30:50.975185+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive ab",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive abo",
+      "change_position": 240,
+      "cursor": 241
+    },
+    {
+      "time_utc": "2026-10-05T21:30:51.107193+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive abo",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive abou",
+      "change_position": 241,
+      "cursor": 242
+    },
+    {
+      "time_utc": "2026-10-05T21:30:51.297368+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive abou",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about",
+      "change_position": 242,
+      "cursor": 243
+    },
+    {
+      "time_utc": "2026-10-05T21:30:51.527130+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about ",
+      "change_position": 243,
+      "cursor": 244
+    },
+    {
+      "time_utc": "2026-10-05T21:30:51.654910+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about ",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about i",
+      "change_position": 244,
+      "cursor": 245
+    },
+    {
+      "time_utc": "2026-10-05T21:30:51.772177+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about i",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it",
+      "change_position": 245,
+      "cursor": 246
+    },
+    {
+      "time_utc": "2026-10-05T21:30:51.919611+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it ",
+      "change_position": 246,
+      "cursor": 247
+    },
+    {
+      "time_utc": "2026-10-05T21:30:52.048691+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it ",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it a",
+      "change_position": 247,
+      "cursor": 248
+    },
+    {
+      "time_utc": "2026-10-05T21:30:52.141932+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it a",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it an",
+      "change_position": 248,
+      "cursor": 249
+    },
+    {
+      "time_utc": "2026-10-05T21:30:52.291044+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it an",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and",
+      "change_position": 249,
+      "cursor": 250
+    },
+    {
+      "time_utc": "2026-10-05T21:30:52.407961+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and ",
+      "change_position": 250,
+      "cursor": 251
+    },
+    {
+      "time_utc": "2026-10-05T21:30:52.786023+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and ",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B",
+      "change_position": 251,
+      "cursor": 252
+    },
+    {
+      "time_utc": "2026-10-05T21:30:52.998510+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B ",
+      "change_position": 252,
+      "cursor": 253
+    },
+    {
+      "time_utc": "2026-10-05T21:30:53.181375+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B ",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B i",
+      "change_position": 253,
+      "cursor": 254
+    },
+    {
+      "time_utc": "2026-10-05T21:30:53.325214+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B i",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is",
+      "change_position": 254,
+      "cursor": 255
+    },
+    {
+      "time_utc": "2026-10-05T21:30:53.441522+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is ",
+      "change_position": 255,
+      "cursor": 256
+    },
+    {
+      "time_utc": "2026-10-05T21:30:54.097021+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is ",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is n",
+      "change_position": 256,
+      "cursor": 257
+    },
+    {
+      "time_utc": "2026-10-05T21:30:54.208861+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is n",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is ne",
+      "change_position": 257,
+      "cursor": 258
+    },
+    {
+      "time_utc": "2026-10-05T21:30:54.357545+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is ne",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is neg",
+      "change_position": 258,
+      "cursor": 259
+    },
+    {
+      "time_utc": "2026-10-05T21:30:54.428338+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is neg",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is nega",
+      "change_position": 259,
+      "cursor": 260
+    },
+    {
+      "time_utc": "2026-10-05T21:30:54.577361+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is nega",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is negat",
+      "change_position": 260,
+      "cursor": 261
+    },
+    {
+      "time_utc": "2026-10-05T21:30:54.708182+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is negat",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is negati",
+      "change_position": 261,
+      "cursor": 262
+    },
+    {
+      "time_utc": "2026-10-05T21:30:54.856754+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is negati",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is negativ",
+      "change_position": 262,
+      "cursor": 263
+    },
+    {
+      "time_utc": "2026-10-05T21:30:54.958164+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is negativ",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is negative",
+      "change_position": 263,
+      "cursor": 264
+    },
+    {
+      "time_utc": "2026-10-05T21:30:55.092859+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is negative",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is negative ",
+      "change_position": 264,
+      "cursor": 265
+    },
+    {
+      "time_utc": "2026-10-05T21:30:55.260097+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is negative ",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is negative a",
+      "change_position": 265,
+      "cursor": 266
+    },
+    {
+      "time_utc": "2026-10-05T21:30:55.523927+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is negative a",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is negative ab",
+      "change_position": 266,
+      "cursor": 267
+    },
+    {
+      "time_utc": "2026-10-05T21:30:55.641664+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is negative ab",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is negative abo",
+      "change_position": 267,
+      "cursor": 268
+    },
+    {
+      "time_utc": "2026-10-05T21:30:55.790832+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is negative abo",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is negative abou",
+      "change_position": 268,
+      "cursor": 269
+    },
+    {
+      "time_utc": "2026-10-05T21:30:55.924566+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is negative abou",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is negative about",
+      "change_position": 269,
+      "cursor": 270
+    },
+    {
+      "time_utc": "2026-10-05T21:30:56.100496+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is negative about",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is negative about ",
+      "change_position": 270,
+      "cursor": 271
+    },
+    {
+      "time_utc": "2026-10-05T21:30:56.274086+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is negative about ",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is negative about i",
+      "change_position": 271,
+      "cursor": 272
+    },
+    {
+      "time_utc": "2026-10-05T21:30:56.405787+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is negative about i",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is negative about it",
+      "change_position": 272,
+      "cursor": 273
+    },
+    {
+      "time_utc": "2026-10-05T21:30:56.934487+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is negative about it",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is negative about it.",
+      "change_position": 273,
+      "cursor": 274
+    },
+    {
+      "time_utc": "2026-10-05T21:31:06.171078+00:00",
+      "type": "edit",
+      "before": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is negative about it.",
+      "after": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is negative about it.\n",
+      "change_position": 274,
+      "cursor": 275
+    },
+    {
+      "time_utc": "2026-10-05T21:31:12.272778+00:00",
+      "type": "revision",
+      "sentence_number": 0,
+      "sentence": "Text A is about the how AI can improve customer service in the online shopping.",
+      "current_draft": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is negative about it.\n"
+    },
+    {
+      "time_utc": "2026-10-05T21:31:12.282938+00:00",
+      "type": "session_ended"
+    }
+  ],
+  "sentences": [
+    {
+      "time_utc": "2026-10-05T21:28:30.146828+00:00",
+      "type": "new_sentence",
+      "sentence_number": 0,
+      "sentence": "Text A is about the how AI can help customer service in the online shopping.",
+      "current_draft": "Text A is about the how AI can help customer service in the online shopping."
+    },
+    {
+      "time_utc": "2026-10-05T21:29:44.003777+00:00",
+      "type": "new_sentence",
+      "sentence_number": 1,
+      "sentence": "On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed.",
+      "current_draft": "Text A is about the how AI can help customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed."
+    },
+    {
+      "time_utc": "2026-10-05T21:31:12.272778+00:00",
+      "type": "revision",
+      "sentence_number": 0,
+      "sentence": "Text A is about the how AI can improve customer service in the online shopping.",
+      "current_draft": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is negative about it.\n"
+    }
+  ],
+  "final_draft": "Text A is about the how AI can improve customer service in the online shopping. On the other hand, text B states the issue using AI in customer service especially deeper emotional care is needed. Both texts are about AI but A is positive about it and B is negative about it.\n"
+}
